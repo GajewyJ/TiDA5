@@ -3,7 +3,7 @@ Guide with eduvulcan.pl
 
 * * *
 
-*   Created by js on 12.09.2024
+*   Created on 12.09.2024
 *   [Edit original on dubble](https://dubble.so/guides/guide-with-eduvulcanpl-9vmpobgtzpfutvxkkupx)
 
 * * *
