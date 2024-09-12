@@ -4,7 +4,7 @@ Guide with eduvulcan.pl
 * * *
 
 *   Created on 12.09.2024
-*   [Edit original on dubble](https://dubble.so/guides/guide-with-eduvulcanpl-9vmpobgtzpfutvxkkupx)
+*   [Edit original on dubble]
 
 * * *
 
