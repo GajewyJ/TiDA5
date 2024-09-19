@@ -1,11 +1,12 @@
 import random
 
-#***************************************************
+#***********************************************************************************************************
 #   nazwa:                  losowanie
-#   opis:                   Losuje podaną ilość liczb z zakresu od 1 do 6 i zapisuje je do tablicy 'liczby'
+#   opis:                   Losuje podaną ilość liczb z zakresu od 1 do 6 i zapisuje je do listy 'liczby'
 #   parametry:              ilosc - liczba całkowita będąca ilością liczb, które funkcja ma wylosować
-#   zwracany typ i opis:    
-#***************************************************
+#   zwracany typ i opis:    list - lista wylosowanych liczb
+#   autor:                  Jakub Gajewy 5D
+#***********************************************************************************************************
 def losowanie(ilosc):
     liczby = []
     kostka = 1
@@ -19,6 +20,13 @@ def losowanie(ilosc):
 
     return liczby
 
+#***********************************************************************************************************
+#   nazwa:                  liczPunkty
+#   opis:                   Oblicza ilość punktów uzyskanych z wylosowanych liczb
+#   parametry:              wylosowaneLiczby - lista losowych liczb z zakresu od 1 do 6
+#   zwracany typ i opis:    int - Ilość punktów uzyskana przez gracza z losowania
+#   autor:                  Jakub Gajewy 5D
+#***********************************************************************************************************
 def liczPunkty(wylosowaneLiczby):
     punkty = 0
 
