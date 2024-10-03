@@ -1,6 +1,12 @@
 from math import sqrt
 
-
+#******************************************************************************************
+#   nazwa funkcji:          wypelnij_tablice
+#   parametry wejściowe:    A - pusta tablica do wypełnieinia wartościami logicznymi
+#   wartość zwracana:       None
+#   informacje:             Funkcja wypełniająca tablicę stoma wartościami logcznymi True
+#   autor:                  Jakub Gajewy
+#******************************************************************************************
 def wypelnij_tablice(A):
     for i in range(0, 100):
         A.append(True)
@@ -22,7 +28,9 @@ A = []
 wypelnij_tablice(A)
 sito_erastotenesa(A, n)
 
-print("Liczby pierwsze: ")
+liczby_string = ""
 for i in range(2, n):
     if A[i] == True:
-        print(i,end=", ")
+        liczby_string += str(i) + ", "
+        
+print("Liczby pierwsze z zakresu [2; 100]: " + liczby_string)
